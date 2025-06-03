@@ -3,15 +3,16 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-secondary via-secondary to-gray-800 text-white py-20">
+    <section className="bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-900 py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-5xl lg:text-6xl font-montserrat font-bold mb-6 leading-tight">
-              Автокраны <span className="text-primary">Terex-Demag</span> и{" "}
-              <span className="text-primary">Liebherr</span>
+              Сервисным центром по ремонту мобильных автокранов{" "}
+              <span className="text-primary">Liebherr</span>,{" "}
+              <span className="text-primary">Terex-Demag</span>
             </h1>
-            <p className="text-xl font-opensans mb-8 text-gray-300 leading-relaxed">
+            <p className="text-xl font-opensans mb-8 text-gray-600 leading-relaxed">
               Профессиональная продажа, ремонт и техническое обслуживание
               автокранов ведущих мировых производителей по всей России
             </p>
@@ -20,7 +21,7 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="font-opensans font-semibold bg-transparent border-white text-white hover:bg-white hover:text-secondary"
+                className="font-opensans font-semibold bg-transparent border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white"
               >
                 <Icon name="Wrench" size={20} />
                 Заказать ремонт
@@ -51,7 +52,7 @@ const Hero = () => {
                 className="w-full h-80 object-cover rounded-xl shadow-2xl"
               />
               <div className="absolute -bottom-4 -right-4 bg-white rounded-lg p-4 shadow-lg">
-                <div className="text-secondary text-center">
+                <div className="text-gray-900 text-center">
                   <div className="text-2xl font-montserrat font-bold">15+</div>
                   <div className="text-sm font-opensans">лет опыта</div>
                 </div>
