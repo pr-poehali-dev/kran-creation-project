@@ -17,10 +17,6 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="font-opensans font-semibold">
-                <Icon name="ShoppingCart" size={20} />
-                Купить кран
-              </Button>
               <Button
                 variant="outline"
                 size="lg"
@@ -50,7 +46,7 @@ const Hero = () => {
           <div className="relative animate-scale-in">
             <div className="bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl p-8">
               <img
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop&crop=center"
+                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&h=400&fit=crop&crop=center"
                 alt="Автокран Liebherr"
                 className="w-full h-80 object-cover rounded-xl shadow-2xl"
               />
