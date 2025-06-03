@@ -10,13 +10,6 @@ import Icon from "@/components/ui/icon";
 const Services = () => {
   const services = [
     {
-      icon: "ShoppingCart",
-      title: "Продажа автокранов",
-      description:
-        "Новые и б/у автокраны Terex-Demag и Liebherr. Официальная гарантия и документооборот.",
-      features: ["Новая техника", "Проверенные б/у", "Трейд-ин", "Лизинг"],
-    },
-    {
       icon: "Wrench",
       title: "Ремонт и обслуживание",
       description:
@@ -67,7 +60,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card
               key={index}
