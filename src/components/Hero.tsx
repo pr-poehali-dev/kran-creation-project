@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-5xl lg:text-6xl font-montserrat font-bold mb-6 leading-tight">
-              Сервисным центром по ремонту мобильных автокранов{" "}
+              Авторизованный сервисный центр по ремонту автокранов{" "}
               <span className="text-primary">Liebherr</span>,{" "}
               <span className="text-primary">Terex-Demag</span>
             </h1>
