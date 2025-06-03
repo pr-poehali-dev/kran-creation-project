@@ -13,7 +13,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="font-opensans text-gray-400 mb-4">
-              Ведущий поставщик автокранов Terex-Demag и Liebherr в России
+              Ремонт и поставка деталей автокранов Terex-Demag и Liebherr
             </p>
             <div className="flex space-x-4">
               <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="space-y-3 font-opensans text-gray-400">
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} className="text-primary" />
-                <span>+7 (495) 123-45-67</span>
+                <span>+7 922 22 54 373</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} className="text-primary" />
@@ -93,14 +93,14 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-2">
                 <Icon name="MapPin" size={16} className="text-primary mt-0.5" />
-                <span>Москва, Варшавское шоссе, 125с1</span>
+                <span>г. Екатеринбург, ул. Щорса, д. 7</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center font-opensans text-gray-400">
-          <p>&copy; 2024 Kran-Russland. Все права защищены.</p>
+          <p>&copy; 2024 Kran-Russland. Все права защищены. С 2008 года.</p>
         </div>
       </div>
     </footer>
