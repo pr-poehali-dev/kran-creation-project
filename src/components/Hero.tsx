@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="relative animate-scale-in">
             <div className="bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl p-8">
               <img
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&h=400&fit=crop&crop=center"
+                src="https://cdn.poehali.dev/files/48b5e689-ab9f-484a-982f-a141a28e3891.jpg"
                 alt="Автокран Liebherr"
                 className="w-full h-80 object-cover rounded-xl shadow-2xl"
               />
