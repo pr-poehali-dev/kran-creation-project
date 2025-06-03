@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-opensans font-semibold">
-                    +7 (495) 123-45-67
+                    +7 922 22 54 373
                   </div>
                   <div className="text-gray-400 text-sm">
                     Звонки принимаем 24/7
@@ -57,11 +57,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-opensans font-semibold">
-                    Москва, Варшавское шоссе, 125с1
+                    г. Екатеринбург, ул. Щорса, д. 7, оф. 216
                   </div>
-                  <div className="text-gray-400 text-sm">
-                    Выставочный центр и склад
-                  </div>
+                  <div className="text-gray-400 text-sm">Головной офис</div>
                 </div>
               </div>
             </div>
